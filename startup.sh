@@ -15,12 +15,6 @@ S1=$(echo $SYSTEMSTAT | sed 's/[^0-9]*//g')
 CH=$(head -n 1 $HOME/code.txt);
 echo "preferences { ctrl_c_copy = true ctrl_v_paste = true}" >$HOME/.gotty
 echo "preferences { ctrl_c_copy = true ctrl_v_paste = true}" >$HOMEA/.gotty
-echo "=============================="
-echo "VER 5.2"
-echo "Copy paste function"
-echo "Most of hostings supported"
-echo "Soon way of hosting linux on WebHost 24/7"
-echo "=============================="
 clear
 export LANG=en_US.UTF-8
 export LANGUAGE=en_US.UTF-8
@@ -173,9 +167,7 @@ if [ -f $HOMEA/gotty ];
 then
 rm -r 1.sh
 echo "**| Open url: $SERVER_IP:$SERVER_PORT |**"
-echo "I have no name!@ID -> APTH 'name of package without quotes'"
-echo "If you want to run your server or program at startup, use *|startcustom.sh|* file"
-echo " "
+echo "FOR INSTALL packages run -> APTH package"
 echo "FOR INSTALL debian run -> sh DebStart.sh"
 echo "--------------"
 
