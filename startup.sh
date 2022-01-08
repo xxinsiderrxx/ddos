@@ -6,11 +6,6 @@ HOMEV=$HOME/vt
 DIS=:0
 clear
 SYSINFO=$(uname -a)
-SID=$(uname -n)
-PID=$(echo $SID | sed 's/[^0-9]*//g')
-VERS=$(uname -r)
-SYSTEMSTAT=$VERS$SID$PID$VERS$SID$PID$PID$SID$VERS
-S1=$(echo $SYSTEMSTAT | sed 's/[^0-9]*//g')
 echo "preferences { ctrl_c_copy = true ctrl_v_paste = true}" >$HOME/.gotty
 echo "preferences { ctrl_c_copy = true ctrl_v_paste = true}" >$HOMEA/.gotty
 clear
